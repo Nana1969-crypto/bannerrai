@@ -77,7 +77,7 @@ title()
 
 # AUTORES
 fill_lines([
-    ("Raíssa Victória e Otávio Santos", B, 20),
+    ("Raíssa Victória de Mattos e Otávio de Souza", B, 20),
     ("I.E. Dom Diogo de Souza – DDS 1930 – Porto Alegre – RS", R, 15),
     ("Mostra Científica 2026", R, 15),
     ("Orientação: Biologia e Química", R, 15),
