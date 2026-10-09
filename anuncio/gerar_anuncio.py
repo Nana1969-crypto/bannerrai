@@ -72,7 +72,7 @@ d.polygon([(ax - 25, cy), (ax + 25, cy), (ax, cy + 28)], fill=GOLD)
 creative_top, creative_bottom = TOP_SAFE, cta_top - 10
 logo_h = 80
 logo_y = TOP_SAFE + 10
-logo_path = sys.argv[1] if len(sys.argv) > 1 else None
+logo_path = sys.argv[1] if len(sys.argv) > 1 else os.path.join(os.path.dirname(os.path.abspath(__file__)), "logo_zion_branca.png")
 if logo_path and os.path.exists(logo_path):
     lg = Image.open(logo_path).convert("RGBA")
     lw = round(lg.width * logo_h / lg.height)
